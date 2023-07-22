@@ -1,11 +1,12 @@
-import { Button } from '@/components/ui/button'
 import Upload from '@/features/upload'
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen p-24 flex flex-col justify-center items-center">
-
-      <Upload />
-    </main>
+    <div className="h-screen w-screen p-24 flex flex-col justify-center items-center">
+      <Link href='/process/foo'>
+        <Upload />
+      </Link>
+    </div>
   )
 }
