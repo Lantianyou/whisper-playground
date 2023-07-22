@@ -8,6 +8,7 @@ Whisper is meant to be a Web UI for the OpenAI Whisper. whisper-playground provi
 
 - Speech to text super expensive or embedded in other software.
     - xunfei, tencent, super expensive, convoluted expensive
+    - we can be 100x cheaper and still profitable, if not more
     - meeting apps, you have to use the app in advance. Cannot import files, say mp3 files.
 
 - Remove the pause and noise
@@ -21,4 +22,24 @@ Whisper is meant to be a Web UI for the OpenAI Whisper. whisper-playground provi
 - Big market
     - Can be used in legal case, recorded audio is wildly used as legal evidence, but no judge or lawyer has time to listen
 
+## Added Features
+
+- Human editting
+    - Rich text editor for correction, can correct accent, 多音字 etc
+    - Download as common-use file like Microsoft Word, pdf or display beautifully in markdown
+
+- Audio editting
+    - Transform all kinds of audio file using ffmpeg
+    - Split audio files
+    - Remove background noise, and download for user, basically a WebUI for ffmpeg
+
+- Text augmentation
+    - Use ChatGPT to frame the conversation from ordinary speech to written down essays. 口语到书面语 
+    - Summary, translation, style shifts (小红书) or other GPT capabilities
+
+## Advantages
+
+- Pricing: Just charge fees, one time payment, will accept below 1 yuan, no sign up allowed
+- Performant, elegant and easy-to-use, built by ByteDance engineers
+- SEO 
 
