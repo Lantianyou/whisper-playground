@@ -2,4 +2,6 @@
 - auth: Clerk
 - payment: lemmon/stripe （支持微信支付宝）
 - deployment: Vercel
-- Rich Text Editor: https://tiptap.dev/ 
+- Rich Text Editor: https://tiptap.dev/
+- UI: shadcn
+- ffmpeg
