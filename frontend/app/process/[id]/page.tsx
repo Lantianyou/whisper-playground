@@ -28,7 +28,7 @@ export default async function Page({ params }: PageParams) {
   const data = await getHTTPText(params.id)
   const finishedProcess = data.finished
   return <>
-    <div className='w-screen h-screen flex justify-center flex-col items-center p-24'>
+    <div className='w-screen h-screen flex flex-col items-center p-24'>
       <AudioPlayer />
       <div>
         Streaming text output
