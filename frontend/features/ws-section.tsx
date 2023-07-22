@@ -1,11 +1,12 @@
 "use client"
 
 import useSWRSubscription from "swr/subscription"
+import { usePathname } from "next/navigation"
 
-const wsURl = "ws://localhost:3001/"
 export default function WSSection({ startId }: { startId: number }) {
+  const pathname = usePathname()
   const { data, error } = useSWRSubscription(
-    wsURl + startId,
+    `${pathname}/${startId}`,
     (key, { next }) => {
       const source = new EventSource(key)
       source.addEventListener(

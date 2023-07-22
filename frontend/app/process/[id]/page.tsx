@@ -39,20 +39,16 @@ export default async function Page({ params }: PageParams) {
     <>
       <div className="w-screen h-screen flex flex-col items-center p-24">
         <AudioPlayer />
-        <div className='w-full p-12'>
-          <div className='w-full'>
+        <div className="w-full p-12">
+          <div className="w-full">
             <Card>
               <CardHeader>
-                <CardTitle>
-          Streaming text output
-                </CardTitle>
-                <CardDescription>
-                  Transcript
-                </CardDescription>
+                <CardTitle>Streaming text output</CardTitle>
+                <CardDescription>Transcript</CardDescription>
               </CardHeader>
               <CardContent>
-                {data.texts.map((text) => (
-                  <p>{text}</p>
+                {data.texts.map((text, i) => (
+                  <p key={i}>{text}</p>
                 ))}
                 {!finishedProcess && (
                   <WSSection startId={data.startId}></WSSection>
