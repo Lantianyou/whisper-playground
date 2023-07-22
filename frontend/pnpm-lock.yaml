@@ -38,6 +38,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.4.12
     version: 13.4.12(eslint@8.45.0)(typescript@5.1.6)
+  lucide:
+    specifier: ^0.263.0
+    version: 0.263.0
   lucide-react:
     specifier: ^0.263.0
     version: 0.263.0(react@18.2.0)
@@ -1853,6 +1856,10 @@ packages:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /lucide@0.263.0:
+    resolution: {integrity: sha512-Z3CXtFWyZdPDG8i5TOZjP0dXfVK1T6tUdoAFdsdWW32HAJJ0eErN3frh2rt366qaM7fApduNpzCZJqlIdoAjsQ==}
     dev: false
 
   /merge-stream@2.0.0:

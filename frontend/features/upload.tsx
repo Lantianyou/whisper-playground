@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import { useEffect, useRef } from 'react'
 import { FFmpeg, createFFmpeg } from '@ffmpeg/ffmpeg'
+import { ArrowUpFromLine } from 'lucide-react'
 
 export default function Upload() {
   const ref = useRef<FFmpeg>()
@@ -20,5 +21,8 @@ export default function Upload() {
     }
     initFFmpeg()
   }, [])
-  return <Button>Upload</Button>
+  return <Button>
+    <ArrowUpFromLine className='w-4 h-4 mr-4' />
+    Upload
+  </Button>
 }
