@@ -1,0 +1,5 @@
+- GPU deployment: https://lambdalabs.com/service/colocation
+- auth: Clerk
+- payment: lemmon/stripe （支持微信支付宝）
+- deployment: Vercel
+- Rich Text Editor: TBD 
