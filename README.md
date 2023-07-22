@@ -2,6 +2,8 @@
 
 Transform your audio file into text, with one simple click.
 
+Record verbally, get well-documented essays.
+
 Whisper is meant to be a Web UI for the OpenAI Whisper. whisper-playground provides a comfortable, easy-to-use GUI to help people who has little technology background leverage today's AI development in speech recognization.
 
 **Use case**: recorded audio file to text to 10x productivities for legal professions
