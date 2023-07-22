@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "rome format . --write"
   },
   "dependencies": {
     "@ffmpeg/core": "^0.11.0",
@@ -42,6 +43,7 @@
     "node": "18.17.0"
   },
   "devDependencies": {
-    "encoding": "^0.1.13"
+    "encoding": "^0.1.13",
+    "rome": "12.1.3"
   }
 }
