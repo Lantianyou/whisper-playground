@@ -16,7 +16,7 @@ export default function WSSection({ startId }: { startId: number }) {
         },
       )
       source.addEventListener("error", (e) => {
-        next(e.error)
+        // next(e.error)
       })
       return () => source.close()
     },
