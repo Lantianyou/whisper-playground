@@ -8,6 +8,10 @@ Whisper is meant to be a Web UI for the OpenAI Whisper. whisper-playground provi
 
 **Use case**: recorded audio file to text to 10x productivities for legal professions
 
+**Ultimate long term goal**: an annotation as fine-tune tool. Fine tune is such a high-level, AI scientist needed, GPU intensive task. But fine tuning is the only way to deploy AI. AGI is movie star, fine tuned one is your girl friend.
+
+For example, I have 20 audios talking about the internal stuff of a company called FooBar. On the first transcription, I annotate the word "foo bar" as "FooBar". The rest of the 19 audios should remember that
+
 ## Problems and solutions
 
 - Speech to text super expensive or embedded in other software.
