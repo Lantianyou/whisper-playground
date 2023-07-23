@@ -1,0 +1,2 @@
+- 短期目标：Whisper Playground
+- 长期目标：Annotation as Fine Tune for speech
