@@ -2,6 +2,6 @@
 
 我们认为，微调后的 AI 模型后很有价值。AGI 就像电影明星，每个人都能欣赏；微调后的 AI 像是体贴女友，对你了解万分
 
-Whisper 是使用 Common Voice 数据集标注的，[见此](https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0/viewer/ab/train?row=5)
+Whisper 是使用 Common Voice 数据集标注的，[见此](https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0/viewer/ab/train?row=5)，核心维度只有原语音和文字两条。Whisper 利用了 ffmpeg ，把语音文件切成一段段转录，从 Whisper 代码里略加改动能找到当前修改文字背后的语音，文字就是富文本编辑器编辑后的文字
 
 ![image](https://github.com/Lantianyou/whisper-playground/assets/37259750/6b8fbd05-f786-4b85-8105-1b573d6ad5ca)
