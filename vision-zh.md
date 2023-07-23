@@ -4,4 +4,4 @@
 
 Whisper 是使用 Common Voice 数据集标注的，[见此](https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0/viewer/ab/train?row=5)
 
-
+![image](https://github.com/Lantianyou/whisper-playground/assets/37259750/6b8fbd05-f786-4b85-8105-1b573d6ad5ca)
