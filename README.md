@@ -6,9 +6,9 @@ Record verbally, get well-documented essays.
 
 Whisper is meant to be a Web UI for the OpenAI Whisper. whisper-playground provides a comfortable, easy-to-use GUI to help people who has little technology background leverage today's AI development in speech recognization.
 
-**Use case**: recorded audio file to text to 10x productivities for legal professions
+**Use case**: transcribe recorded audio file to 10x productivities for legal professions && read a podcast
 
-**Ultimate long term goal**: an annotation as fine-tune tool. Fine tune is such a high-level, AI scientist needed, GPU intensive task. But fine tuning is the only way to deploy AI. AGI is movie star, fine tuned one is your girl friend.
+**Long term goal**: an annotation as fine-tune tool. Fine tune is such a high-level, AI scientist needed, GPU intensive task. But fine tuning is the only way to deploy AI. AGI is movie star, fine tuned one is your girl friend.
 
 For example, I have 20 audios talking about the internal stuff of a company called FooBar. On the first transcription, I annotate the word "foo bar" as "FooBar". The rest of the 19 audios should remember that
 
