@@ -1,0 +1,12 @@
+{
+  "name": "whisper-playground",
+  "version": "1.0.0",
+  "description": "Transform your audio file into text, with one simple click.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
