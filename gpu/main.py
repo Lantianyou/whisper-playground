@@ -1,6 +1,6 @@
 from pydub import AudioSegment
 from pyannote.audio import Pipeline
-
+import re
 
 audio = AudioSegment.from_mp3("audio.mp3")
 
@@ -13,7 +13,6 @@ dz = pipeline(DEMO_FILE)
 with open("diarization.txt", "w") as text_file:
     text_file.write(str(dz))
 
-import re
 
 dz = open("diarization.txt", "r").read().splitlines()
 dz_list = []
