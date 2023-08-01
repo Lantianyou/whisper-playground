@@ -16,7 +16,7 @@
     "@types/node": "20.4.5",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
-    "@udecode/plate": "^22.1.0",
+    "@udecode/plate": "^23.0.0",
     "@uploadthing/react": "^5.2.0",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.0",
