@@ -22,7 +22,7 @@
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "drizzle-orm": "^0.27.2",
+    "drizzle-orm": "^0.28.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "lucide": "^0.263.0",
