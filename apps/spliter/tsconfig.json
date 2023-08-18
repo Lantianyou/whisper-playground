@@ -7,6 +7,11 @@
       "DOM",
       "DOM.Iterable"
     ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+    },
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "Node",
@@ -20,7 +25,8 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src"
   },
   "include": [
     "src"

@@ -1,6 +1,12 @@
+import { useEffect } from "react";
+
 export default function App() {
+
+  useEffect(() => {
+
+  }, [])
   return (
-    <div className="App">
+    <div>
       <h1>Splitter</h1>
     </div>
   );
