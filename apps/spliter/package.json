@@ -20,8 +20,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/react": "18.2.19",
-    "@types/react-dom": "18.2.7",
+    "@types/react": "18.2.23",
+    "@types/react-dom": "18.2.8",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "electron": "^25.0.1",
     "electron-builder": "^24.4.0",
