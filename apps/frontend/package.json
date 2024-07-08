@@ -48,7 +48,7 @@
     "zod": "^3.21.4"
   },
   "volta": {
-    "node": "18.17.0"
+    "node": "18.20.4"
   },
   "devDependencies": {
     "drizzle-kit": "^0.19.12",
