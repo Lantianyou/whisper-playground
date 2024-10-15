@@ -51,7 +51,7 @@
     "node": "18.17.0"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.19.12",
+    "drizzle-kit": "^0.26.0",
     "encoding": "^0.1.13",
     "rome": "12.1.3"
   }
